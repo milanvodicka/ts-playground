@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "start": "webpack --mode development && node dist/index.js"
+    "start": "webpack --mode development && node dist/index.js",
+    "typecheck": "tsc"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +17,7 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
-  "dependencies": {}
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12"
+  }
 }
